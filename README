@@ -1,10 +1,11 @@
-Python Script to create Visible and Non Visible Components boilerplate code.
+This is a try of making a module for APP inventor for the android development subject final delivery.
 
-run: python misc/componentcreator/componentcreator.py
+I will implement a basic GATT profile with a service discover and characteristics discover/enabler in order to get notifications.
 
-PIL needs to be installed to resize icons automatically.
+So other profiles are not implemented.
 
-Windows users should install python before using the script.
+Currently, the appinventor implement bluetooth 2.0 RFCOMM (serial port simulation) profile so it is useless for new embedded bluetooth 4.0 low energy devices.
 
-Link to the design document:
-https://docs.google.com/document/d/1HetZsFh6x0n6J_9PW_OFUzU4icw0y2kdnzUvbqwtcBQ/edit
+This is the main motivation of making this module.
+
+In order to compile you need Java sdk 1.7 64 bits (because 1.8 fails and you need 1848m heap , so it is necessary to be 64bits).
